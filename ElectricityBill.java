@@ -28,6 +28,7 @@ public class ElectricityBill implements Payable{
     }
     public void setCategory(String category){
         this.category = category;
+		System.out.println("hello");
     }
     @Override
     public int getPaymentAmount() {
